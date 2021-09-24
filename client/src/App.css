@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+}
+
+.chatWithAliens {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.chatWithAliens > .chatFormContainer {
+	align-items: center;
+}
+.chatWithAliens > .roomContainer > form {
+	display: inline-block;
+}
+.chatWithAliens > .registerFormContainer {
+	justify-content: center;
+}
+
+ul.chatList {
+	list-style-type: none;
+	padding: 0;
+}
